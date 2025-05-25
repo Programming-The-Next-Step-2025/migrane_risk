@@ -1,0 +1,28 @@
+---
+title: "Migraine_risk app report"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Migraine Risk App Report}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+# Introduction
+Here the outline of the migrane risk assesor app is outlined
+
+# User Profile (Step 1)
+- User information and baseline score calculation.
+
+# Biological Factors (Step 2)
+- Daily risk adjustments based on habits and for females menstruation cycle.
+
+# Environmental Triggers (Step 3)
+- Planned automated weather checks (still needs to be done).
+
+# Screenshots
+(none yet)
+
+# Session Info
+
+```{r setup}
+library(migrane)
+```
