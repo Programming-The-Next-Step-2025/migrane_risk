@@ -16,3 +16,6 @@
 hello <- function() {
   print("Hello, world!")
 }
+devtools::install()
+
+usethis::use_readme_md()
