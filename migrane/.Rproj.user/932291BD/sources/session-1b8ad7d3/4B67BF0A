@@ -1,0 +1,26 @@
+{
+    "id": "4B67BF0A",
+    "path": "~/GitHub/migrane_risk/migrane_risk/migrane/R/weather_score_function.R",
+    "project_path": "R/weather_score_function.R",
+    "type": "r_source",
+    "hash": "1463222092",
+    "contents": "",
+    "dirty": false,
+    "created": 1748358603097.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "59,25",
+        "scrollLine": "39"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1748531774,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1748531774600,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -12,15 +12,23 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "44,0",
-        "scrollLine": "44"
+        "cursorPosition": "87,0",
+        "scrollLine": "57"
     },
     "folds": "",
+<<<<<<< Updated upstream:migrane/.Rproj.user/932291BD/sources/session-d4667bd3/DABA9F12
     "lastKnownWriteTime": 1748167862,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
     "last_content_update": 1748167862445,
+=======
+    "lastKnownWriteTime": 1748531708,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1748531708854,
+>>>>>>> Stashed changes:migrane/.Rproj.user/932291BD/sources/session-1b8ad7d3/DABA9F12
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -10,9 +10,6 @@ evaluate_biological_factors(
   sleep_quality,
   alcohol,
   red_wine,
-  gender,
-  last_period_date = NA,
-  cycle_length = NA,
   water_liters,
   caffeine_change,
   hours_since_last_meal
@@ -25,15 +22,9 @@ evaluate_biological_factors(
 
 \item{sleep_quality}{Character. "good" or "poor".}
 
-\item{alcohol}{Logical. Did the user drink alcohol in the last 24 hours?}
+\item{alcohol}{Logical. Did the user drink alcohol in the last 24 hours? (TRUE/FALSE)}
 
 \item{red_wine}{Logical. Did they drink red wine? (Only if alcohol is TRUE)}
-
-\item{gender}{Character. User's gender ("female", "male", etc.).}
-
-\item{last_period_date}{Date. Date of last menstrual period (if female).}
-
-\item{cycle_length}{Integer. Typical cycle length in days (if female).}
 
 \item{water_liters}{Numeric. How much water did they drink today? (liters)}
 
@@ -42,10 +33,10 @@ evaluate_biological_factors(
 \item{hours_since_last_meal}{Numeric. How many hours since their last meal?}
 }
 \value{
-A list with the biological risk score, number of migraines, and cycle information (if applicable).
+A list with the biological risk score and number of migraines this month.
 }
 \description{
-This function calculates a biological risk score based on daily habits and menstruation cycle.
+This function calculates a biological risk score based on daily habits.
 }
 \examples{
 evaluate_biological_factors(
@@ -54,9 +45,6 @@ evaluate_biological_factors(
   sleep_quality = "poor",
   alcohol = TRUE,
   red_wine = FALSE,
-  gender = "female",
-  last_period_date = as.Date("2025-05-01"),
-  cycle_length = 28,
   water_liters = 1.5,
   caffeine_change = "more",
   hours_since_last_meal = 6

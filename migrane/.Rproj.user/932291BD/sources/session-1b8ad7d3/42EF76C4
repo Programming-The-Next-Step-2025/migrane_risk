@@ -1,0 +1,26 @@
+{
+    "id": "42EF76C4",
+    "path": "~/GitHub/migrane_risk/migrane_risk/migrane/inst/app/app.R",
+    "project_path": "inst/app/app.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1748169793954.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "170,19",
+        "scrollLine": "155"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1748532575,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1748532575700,
+    "read_only": false,
+    "read_only_alternatives": []
+}

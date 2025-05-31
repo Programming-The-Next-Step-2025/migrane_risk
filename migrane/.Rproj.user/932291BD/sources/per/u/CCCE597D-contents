@@ -1,0 +1,16 @@
+# Install & load
+devtools::install()
+library(migrane)
+
+# Check exports & imports
+getNamespaceExports("migrane")
+getNamespaceImports("migrane")
+
+# Inspect documentation
+help(package = "migrane")
+?create_user_profile      # and so on
+
+# example calls
+create_user_profile("Alex", "female", 30, TRUE, "Amsterdam")
+evaluate_biological_factors(3, 6, "poor", TRUE, FALSE, 1.5, "more", 6)
+check_weather_risk("Amsterdam", "5754250f57228c5fa0fdf22fd68cb02e")
